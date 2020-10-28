@@ -8,62 +8,67 @@
       body{
         margin:0px;
       }
-      h1{
-       text-align:center;
-       margin:15px; 
-      }
       p{
         text-align:left;
         text-decoration:none;
         font-size:10px;
-        font-family:sans-serif;
       }
       h1{
-        border-bottom:3px solid grey;
-        display:block;
-        padding-bottom:10px;
-        margin:0px;
+        width:170px;
+      }
+      div{
+        text-align:center;
+        color:rgb(245, 125, 29);
+      }
+      #tag{
+        text-align:center;
+        font-size:10px;
+        color:grey;
+        width:170px;
       }
       ul{
-        border-bottom:3px solid grey;
         display:block;
-        margin:0px;
+        margin-top:80px;
         padding:0px;
      }
       #grid li{
-        font-family: "Hi Melody";
-        font-weight: bold;
-        font-size: 23px;
-        background:#ff6696;
-        color:white;
-        text-align:center;
         list-style-type:none;
-        padding:2px;
-        margin:10px;
-        width:150px;
+      }
+      .grid{
+        display:grid;
+        grid-template-columns:200px 1fr;
+        font-family: "Fira Sans Condensed";
       }
       #grid{
         display:grid;
-        grid-template-columns:1fr 1fr 1fr;
-        grid-align:center;
+        grid-template-columns:100px 100px 100px;
+        margin-left:50px;
       }
       #grid a{
+        color:grey;
+        font-weight: bold;
+        font-size: 12px;
         text-decoration:none;
       }
       </style>
     </head>
+    </head>
     <body>
-     <h1>KIDZO BEBE</h1>
-     <ul>
-       <div id="grid">
-         <li><a href="1.html">Trendy 아동복</a></li>
-         <div><li><a href="2.html">남성 아동복</a></li></div>
-         <div><li><a href="3.html">여성 아동복</a></li></div>
-       </div>
-     </ul>    
-     <img src="baby cloth1.jpg" width=200px>
-
-     <img src="baby cloth2.jpg" width=200px>
+     <div class="grid">
+       <h1>
+        <div>KIDs O</div>
+        <div>BEBE</div>
+        <div id="tag">Korean Kids Fashion Review</div>
+       </h1>
+       <ul>
+        <div id="grid">
+         <li><a href="1.html">Pretty</a></li>
+         <div><li><a href="2.html">Handsome</a></li></div>
+         <div><li><a href="3.html">Cute</a></li></div>
+        </div>
+       </ul>
+    </div>
+        
        <!-- 라이브리 시티 설치 코드 -->
  <div id="lv-container" data-id="city" data-uid="MTAyMC81MTgzMC8yODMxMQ==">
   <script type="text/javascript">
