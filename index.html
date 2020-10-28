@@ -8,13 +8,8 @@
       body{
         margin:0px;
       }
-      p{
-        text-align:left;
-        text-decoration:none;
-        font-size:10px;
-      }
       h1{
-        width:170px;
+        width:270px;
       }
       div{
         text-align:center;
@@ -24,12 +19,15 @@
         text-align:center;
         font-size:10px;
         color:grey;
-        width:170px;
+        width:270px;
       }
       ul{
-        display:block;
         margin-top:80px;
         padding:0px;
+     }
+      #newul{
+       margin-top:37px;
+       padding-right:70px;
      }
       #grid li{
         list-style-type:none;
@@ -41,23 +39,54 @@
       }
       #grid{
         display:grid;
-        grid-template-columns:100px 100px 100px;
+        grid-template-columns:150px 150px 150px;
         margin-left:50px;
+        padding-top:10px;
       }
       #grid a{
+        border-right:2px solid grey;
+        padding-right:50px;
         color:grey;
         font-weight: bold;
         font-size: 12px;
         text-decoration:none;
       }
+      img{
+        margin:30px;
+      }
+      .grid2{
+        display:grid;
+        grid-template-columns:1fr 1fr;
+      }
+      .news{
+        display:grid;
+        grid-template-columns:auto;
+        margin:29px 0px 0px 100px;
+        padding:0px;
+        width:250px;
+        font-family: "Fira Sans Condensed";
+        text-align:left;
+      }
+      a{
+        text-decoration:none;
+        color: rgb(99, 109, 118);
+      }
+      #headline{
+        color:grey;
+        margin:29px 0px 0px 100px;
+        padding:0px;
+        width:250px;
+        text-align:center;
+        border-top:1px solid grey;
+      }
       </style>
-    </head>
+    <head>
     </head>
     <body>
      <div class="grid">
        <h1>
-        <div>KIDs O</div>
-        <div>BEBE</div>
+        <div>KIDs Mom</div>
+        <div>Hub</div>
         <div id="tag">Korean Kids Fashion Review</div>
        </h1>
        <ul>
@@ -68,25 +97,18 @@
         </div>
        </ul>
     </div>
-        
-       <!-- 라이브리 시티 설치 코드 -->
- <div id="lv-container" data-id="city" data-uid="MTAyMC81MTgzMC8yODMxMQ==">
-  <script type="text/javascript">
-    (function(d, s) {
-        var j, e = d.getElementsByTagName(s)[0];
-
-        if (typeof LivereTower === 'function') { return; }
-
-        j = d.createElement(s);
-        j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
-        j.async = true;
-
-        e.parentNode.insertBefore(j, e);
-    })(document, 'script');
-  </script>
- <noscript> 라이브리 댓글 작성을 위해 JavaScript를 활성화 해주세요</noscript>
- </div>
- <!-- 시티 설치 코드 끝 -->
-   </p>
+    <div class="grid2">
+     <img src="ma baby.jpg" width=600px>
+     <div id="news">
+      <p class="news" id="headline">Lastest</p>
+      <div>
+       <ul id="newul">
+        <p class="news"><a href="http://www.fashionbiz.co.kr/TN/?cate=2&recom=2&idx=180991" target="_blank" title="move" >유니섹스 '프라이' 아동복 론칭, 패밀리웨어로 리뉴얼</a></p>
+        <p class="news"><a href="http://www.futurekorea.co.kr/news/articleView.html?idxno=141358" target="_blank" title="move">프리미엄 키즈 브랜드 런레빗, 2020 F/W 겨울상품 출시</a></p>
+        <p class="news"><a href="https://www.yna.co.kr/view/AKR20201004021300030?input=1195m" target="_blank" title="move">이랜드리테일, 초통령 '신비아파트'와 협업 아동복 출시</a></p>
+        <p class="news"><a href="http://edu.chosun.com/site/data/html_dir/2020/09/04/2020090401055.html" target="_blank" title="move">아동복 브랜드 지니핑크, 론칭 기념 이벤트 진행</a></p>
+      </ul>
+    </div>
+   </div>
    </body>
   </html>
