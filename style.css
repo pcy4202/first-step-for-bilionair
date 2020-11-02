@@ -15,6 +15,7 @@ h1{
 ul{
   margin-top:80px;
   padding:0px;
+  list-style-type:none;
 }
 #news p{
  margin:50px 50px 50px 80px;
@@ -82,3 +83,19 @@ img{
   padding-top:10px;
   margin-left:80px;
 }}
+/* 1html CSS */
+#youtube{
+  display:grid;
+  grid-template-columns: 100px 1fr;
+}
+#youlist{
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+#youlayout{
+  margin:5px;
+}
+i{
+  margin:50px 50px 50px 10px;
+  padding-top:21px;
+}
