@@ -96,6 +96,23 @@ img{
   margin:5px;
 }
 i{
+  border:2px solid grey;
   margin:50px 50px 50px 10px;
   padding-top:21px;
+}
+#blog{
+  display:grid;
+  grid-template-columns: 100px 1fr;
+}
+#bloglists{
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+#instagram{
+  display:grid;
+  grid-template-columns: 100px 1fr;
+}
+#instagramlists{
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
 }
