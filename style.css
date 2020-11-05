@@ -96,7 +96,7 @@ img{
   margin:5px;
 }
 i{
-  border:2px solid grey;
+  font-size:50px;
   margin:50px 50px 50px 10px;
   padding-top:21px;
 }
@@ -115,4 +115,12 @@ i{
 #instagramlists{
   display:grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+#instagram .fab{
+    font-size:70px;
+    margin-right:10px;
+    background: #d6249f;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
