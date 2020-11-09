@@ -100,14 +100,6 @@ i{
   margin:50px 50px 50px 10px;
   padding-top:21px;
 }
-#blog{
-  display:grid;
-  grid-template-columns: 100px 1fr;
-}
-#bloglists{
-  display:grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-}
 #instagram{
   display:grid;
   grid-template-columns: 100px 1fr;
@@ -123,8 +115,4 @@ i{
     background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-}
-#insta1{
-  width:50px;
-  border:2px solid grey;
 }
